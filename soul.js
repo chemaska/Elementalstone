@@ -688,7 +688,7 @@ function playGame()
     touchStone(herowater, stone);
 }
   // store the countdown timer
-   var miliseconds = 18;
+   var miliseconds = 60;
    var seconds = 60;
    var minutes = 2;
 
@@ -705,7 +705,7 @@ function countdown(){
             --miliseconds;
         }
         if (miliseconds === 0){
-            miliseconds = 18;
+            miliseconds = 60;
             seconds--;
         }
       else if (seconds === 0) {
